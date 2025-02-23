@@ -1,80 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-  <!-- Time Spent: 3hr 51min Date Completed: 2025-01-20 -->
- 
+<DOCTYPE! html>
+<html lang="en">      
+  <main id="main">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page Project - Rowan Atkinson</title>
+    <link rel="stylesheet" href="./styles.css">
+    <h1 class="title" id="title">Rowan Atkinson</h1>
+    <h4 class="summary" id="tribute-info">"Rowan Sebastian Atkinson CBE (born 6 January 1955) is an English actor, comedian and writer. He played the title roles in the sitcoms Blackadder (1983–1989) and Mr. Bean (1990–1995), and in the film series Johnny English (2003–present). Atkinson first came to prominence on the BBC sketch comedy show Not the Nine O'Clock News (1979–1982), receiving the 1981 British Academy Television Award for Best Entertainment Performance." (Wikipedia)</h2>
   </head>
   
+<hr>
   <body>
-    <h1 id="title">Pet Adoption Application Form</h1>
-    <p class="description" id="description">Please fill out this form to be considered for pet adoption. If you have any questions, please contact our office at (123)-867-5309.</p>
-    <form method="post" class="survey-form" id="survey-form">
-      <!--User Name-->
-      <label for="name" id="name-label" class="user-info">Your First Name<input placeholder="John" type="text" id="name" required ></label>
-      <label for="last-name" id="last-name" class="user-info">Your Last Name<input placeholder="Doe" type="text" id="last-name" required ></label>
-
-
-      <!--User Age-->
-      <label for="number" id="number-label" class="user-info">Your Age<input placeholder= "21" type="number" id="number" min=13 max=99 required ></label> 
-
-
-      <!--User Address-->
-      <label for="street-address" id="street-address" class="user-info">Your Street Address<input placeholder="123 N Alphabet St #1" type="text" id="street address" required ></label>
-      <label for="city-state" id="city-state" class="user-info">Your City and State<input placeholder="New York, New York" type="text" id="city-state" required ></label>      
-
-
-      <!--User Email-->
-      <label for="email" id="email-label" class="user-info">Your Email<input placeholder="yourname@email.com" type="email" id="email" required ></label><p>You will use this email to log in</p>
-
-
-      <!--User Phone Number-->
-      <label for="phone number" id="phone-number" class="user-info">Your Phone Number<input placeholder="(123)-456-7890" type="text" id="phone-number" required>
-
-
-      <!--User Password-->
-      <label for="new-password" class="user-info">Create a New Password:<input id="new-password" name="new-password" type="password" pattern="[a-zA-Z0-9!.-]{12,}" required ></label><p>Password must contain 12 digits with a combination of numbers and letters (uppercase and lowercase needed).</p><p>Special Characters permitted: ! . -</p>
-
-
-      <!--Dropdown form-->
-      <label for="dropdown">What kind of pet are you interested in adopting?
-      <select id="dropdown" name="dropdown">
-      <option value="" selected>Select One</option>
-      <option value="1">Cat</option>
-      <option value="2">Dog</option>
-      <option value="3">Fish</option>
-      </select>
-      </label>
-
-
-      <!--Radio Controls-->
-      <legend>Have you owned a pet before (yes or no)?</legend>
-      <label for="Yes"><input id="Yes" type="radio" name="radio-options" value="Yes" class="inline" checked>Yes</label>
-      <label for="No"><input id="No" type="radio" name="radio-options" value="No" class="inline">No</label>
-      <!--Checkboxes-->
-      <legend>Please select the below applicable environmental factors</legend>
-      <input id="child(ren)" type="checkbox" name="checkbox" value="child(ren)" checked><label for="child(ren)" class="inline">Child(ren) present</label>
-      <input id="other-pets" type="checkbox" name="checkbox" value="other-pets"><label for="other-pets" class="inline">Other Pet(s) present</label>
-      <input id="indoor" type="checkbox" name="checkbox" value="indoor"><label for="indoor" class="inline">Indoor Only</label>
-      <input id="other" type="checkbox" name="checkbox" value="other"><label for="other" class="inline">Other</label>
-
-
-      <!--Text area-->
-      <label for="other-notes" id="other-notes" class="bio">Other: notes</label>
-      <textarea id="other-notes" name="other-notes" rows="3" cols="30" placeholder="Other environmental factors are..."></textarea>
-      </label>
-
-
-      <!--Submit button-->
-      <input type="submit" id="submit" value="Submit Form">
-
-
-    </form>
+    <h2 class="header" id="about"></h2>
+      
+    <h2 class="header">Facts</h2>
+      <list class="list">
+        <ul>Atkinson pursued a PhD before acting, however graduated with a Masters in Engineering.</ul>
+        <ul>Atkinson has a deep passion for equality and justice, often speaking out for those negatively impacted.</ul>
+        <ul>As many already know and love, Atkinson is most famous for his character, "Mr Bean," who is beloved by many.</ul>
+<hr>   
+    <h2 class="header" id="photo">Photo</h2>
+      <div class="image" id="img-div">
+        <img src="https://nationaltoday.com/wp-content/uploads/2022/03/Rowan-Atkinson-Birthday--1200x834.jpg.webp" id="image">
+    <div class="quote" id="img-caption">"To be successful you don't need a beautiful face and heroic body; what you need is a skillful mind and the ability to perform" <p>Rowan Atkinson</p></div>
+      </div>
+  </body>
+  
+<hr>
   <footer>
-      <label for="terms-and-conditions">
-        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I have read and agree to the <a href="https://www.freecodecamp.org/news/terms-of-service/"> Pet Adoption Requirements</a></label>
-    </footer>
-    </body>
+    To read more about Aktinson and his achievements, please follow this <a href="https://en.wikipedia.org/wiki/Rowan_Atkinson" id="tribute-link" target="_blank">Wikipedia</a> link
+  </footer>
+  </main>
+
+
 </html>
