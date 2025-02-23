@@ -1,0 +1,67 @@
+body {
+  background-image: url(https://img.freepik.com/free-photo/close-up-pet-accessories_23-2150960028.jpg?semt=ais_incoming); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin: 0%;
+}
+
+
+h1, .description {
+  text-align: center;
+  background-color: rgba(250,255,255,0.75)
+}
+
+
+h1 {
+  font-family: Georgia;
+  font-size: 30px;
+  margin: auto;
+}
+
+
+.survey-form {
+  width: 10%
+  text-align: left;
+  background-color: rgba(250,255,255,0.75);
+  padding: 20px;
+}
+
+
+label {
+  display: inline-block; 
+  font-family: Georgia;
+  font-size: 14px;
+}
+
+
+p {
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  margin-top: 0;
+  font-style: italic;
+}
+
+
+.user-info {
+  display: block;
+  margin: 4px;
+}
+
+
+footer {
+  background-color: rgba(250,255,255,0.75);
+  margin-top: 50px;
+}
+
+
+input, textarea {
+  width: 90%;
+  box-sizing: border-box;
+}
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px 0 0;
+}
