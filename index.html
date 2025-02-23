@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Time Spent: 3hr 51min Date Completed: 2025-01-20 -->
+ 
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  
+  <body>
+    <h1 id="title">Pet Adoption Application Form</h1>
+    <p class="description" id="description">Please fill out this form to be considered for pet adoption. If you have any questions, please contact our office at (123)-867-5309.</p>
+    <form method="post" class="survey-form" id="survey-form">
+      <!--User Name-->
+      <label for="name" id="name-label" class="user-info">Your First Name<input placeholder="John" type="text" id="name" required ></label>
+      <label for="last-name" id="last-name" class="user-info">Your Last Name<input placeholder="Doe" type="text" id="last-name" required ></label>
+
+
+      <!--User Age-->
+      <label for="number" id="number-label" class="user-info">Your Age<input placeholder= "21" type="number" id="number" min=13 max=99 required ></label> 
+
+
+      <!--User Address-->
+      <label for="street-address" id="street-address" class="user-info">Your Street Address<input placeholder="123 N Alphabet St #1" type="text" id="street address" required ></label>
+      <label for="city-state" id="city-state" class="user-info">Your City and State<input placeholder="New York, New York" type="text" id="city-state" required ></label>      
+
+
+      <!--User Email-->
+      <label for="email" id="email-label" class="user-info">Your Email<input placeholder="yourname@email.com" type="email" id="email" required ></label><p>You will use this email to log in</p>
+
+
+      <!--User Phone Number-->
+      <label for="phone number" id="phone-number" class="user-info">Your Phone Number<input placeholder="(123)-456-7890" type="text" id="phone-number" required>
+
+
+      <!--User Password-->
+      <label for="new-password" class="user-info">Create a New Password:<input id="new-password" name="new-password" type="password" pattern="[a-zA-Z0-9!.-]{12,}" required ></label><p>Password must contain 12 digits with a combination of numbers and letters (uppercase and lowercase needed).</p><p>Special Characters permitted: ! . -</p>
+
+
+      <!--Dropdown form-->
+      <label for="dropdown">What kind of pet are you interested in adopting?
+      <select id="dropdown" name="dropdown">
+      <option value="" selected>Select One</option>
+      <option value="1">Cat</option>
+      <option value="2">Dog</option>
+      <option value="3">Fish</option>
+      </select>
+      </label>
+
+
+      <!--Radio Controls-->
+      <legend>Have you owned a pet before (yes or no)?</legend>
+      <label for="Yes"><input id="Yes" type="radio" name="radio-options" value="Yes" class="inline" checked>Yes</label>
+      <label for="No"><input id="No" type="radio" name="radio-options" value="No" class="inline">No</label>
+      <!--Checkboxes-->
+      <legend>Please select the below applicable environmental factors</legend>
+      <input id="child(ren)" type="checkbox" name="checkbox" value="child(ren)" checked><label for="child(ren)" class="inline">Child(ren) present</label>
+      <input id="other-pets" type="checkbox" name="checkbox" value="other-pets"><label for="other-pets" class="inline">Other Pet(s) present</label>
+      <input id="indoor" type="checkbox" name="checkbox" value="indoor"><label for="indoor" class="inline">Indoor Only</label>
+      <input id="other" type="checkbox" name="checkbox" value="other"><label for="other" class="inline">Other</label>
+
+
+      <!--Text area-->
+      <label for="other-notes" id="other-notes" class="bio">Other: notes</label>
+      <textarea id="other-notes" name="other-notes" rows="3" cols="30" placeholder="Other environmental factors are..."></textarea>
+      </label>
+
+
+      <!--Submit button-->
+      <input type="submit" id="submit" value="Submit Form">
+
+
+    </form>
+  <footer>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I have read and agree to the <a href="https://www.freecodecamp.org/news/terms-of-service/"> Pet Adoption Requirements</a></label>
+    </footer>
+    </body>
+</html>
